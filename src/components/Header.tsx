@@ -4,6 +4,7 @@ const navItems = [
 	{ href: "#hero", label: "Home" },
 	{ href: "#features", label: "Features" },
 	{ href: "#how", label: "How It Works" },
+	{href: "#suggestions", label: "Project Suggestions" },
 	{ href: "#pricing", label: "Pricing" },
 	{ href: "#faq", label: "FAQ" },
 ];
