@@ -8,3 +8,4 @@ export { default as FAQ } from "./FAQ";
 export { default as FinalCTA } from "./FinalCTA";
 export { default as Footer } from "./Footer"; 
 export { default as ProjectSuggestions } from "./ProjectSuggestions";
+export { default as ThemeToggle } from "./ThemeToggle";

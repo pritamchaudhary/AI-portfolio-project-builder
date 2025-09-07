@@ -8,7 +8,7 @@ const steps = [
 
 const HowItWorks = () => {
 	return (
-		<section id="how" className="border-t border-slate-200">
+		<section id="how" className="border-t border-slate-200 dark:border-slate-700">
 			<div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
 				<header className="mx-auto max-w-3xl text-center">
 					<h2 className="section-title">How It Works</h2>
@@ -19,7 +19,7 @@ const HowItWorks = () => {
 						<li key={s.step} className="card">
 							<div className="flex items-start gap-3">
 								<span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-gradient-to-r from-brand-start to-brand-end text-sm font-semibold text-white">{s.step}</span>
-								<p className="text-sm text-slate-700">{s.text}</p>
+								<p className="text-sm text-slate-700 dark:text-slate-300">{s.text}</p>
 							</div>
 						</li>
 					))}

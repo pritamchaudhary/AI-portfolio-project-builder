@@ -29,7 +29,7 @@ const features = [
 
 const Features = () => {
 	return (
-		<section id="features" className="border-t border-slate-200">
+		<section id="features" className="border-t border-slate-200 dark:border-slate-700">
 			<div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
 				<header className="mx-auto max-w-3xl text-center">
 					<h2 className="section-title">Key Features</h2>
@@ -39,8 +39,8 @@ const Features = () => {
 					{features.map((f) => (
 						<div key={f.title} className="card">
 							<div className="flex items-start gap-3">
-								<div className="rounded-md bg-slate-50 p-2">{f.icon}</div>
-								<h3 className="text-base font-semibold text-slate-900">{f.title}</h3>
+								<div className="rounded-md bg-slate-50 dark:bg-slate-700 p-2">{f.icon}</div>
+								<h3 className="text-base font-semibold text-slate-900 dark:text-slate-100">{f.title}</h3>
 							</div>
 						</div>
 					))}

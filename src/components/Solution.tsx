@@ -1,19 +1,19 @@
 
 const Solution = () => {
   return (
-    <section id="solution" className="border-t border-slate-200 bg-white">
+    <section id="solution" className="border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
         <header className="max-w-3xl mx-auto text-center">
-          <h2 className="section-title text-3xl font-extrabold text-gray-900">
+          <h2 className="section-title text-3xl font-extrabold text-slate-900 dark:text-slate-100">
             The Solution
           </h2>
-          <p className="section-subtitle mt-4 text-lg text-gray-700">
+          <p className="section-subtitle mt-4 text-lg text-slate-600 dark:text-slate-400">
             Upload your resume or portfolio, and our AI-powered platform analyzes your skills to suggest the top 5 trending, guided projects specifically tailored for you.  
             Take advantage of personalized guidance to build an impressive portfolio that stands out.
           </p>
           <div className="mt-6">
             <svg
-              className="mx-auto h-12 w-12 text-green-500"
+              className="mx-auto h-12 w-12 text-brand-start"
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"

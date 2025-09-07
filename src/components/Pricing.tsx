@@ -20,7 +20,7 @@ const Pricing = () => {
 	const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
 
 	return (
-		<section id="pricing" className="border-t border-slate-200">
+		<section id="pricing" className="border-t border-slate-200 dark:border-slate-700">
 			<div className="mx-auto max-w-7xl px-4 py-14 sm:px-6">
 				<header className="mx-auto max-w-3xl text-center">
 					<h2 className="section-title">Pricing</h2>
@@ -32,7 +32,7 @@ const Pricing = () => {
 							key={p.title}
 							onClick={() => setSelectedPlan(p.title)}
 							className={`card relative cursor-pointer transition-shadow duration-300 ${
-							selectedPlan === p.title ? "border-2 border-green-600 shadow-lg" : "border border-slate-200"
+							selectedPlan === p.title ? "border-2 border-brand-start shadow-lg" : "border border-slate-200 dark:border-slate-700"
 							}`}
 						>
 							{p.popular && (
@@ -40,10 +40,10 @@ const Pricing = () => {
 								Popular
 							</span>
 							)}
-							<h3 className="text-lg font-semibold text-slate-900">{p.title}</h3>
-							<p className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900">{p.price}</p>
-							<p className="mt-1 text-sm text-slate-600">{p.desc}</p>
-							<ul className="mt-4 space-y-2 text-sm text-slate-700">
+									<h3 className="text-lg font-semibold text-slate-900 dark:text-slate-100">{p.title}</h3>
+									<p className="mt-2 text-3xl font-extrabold tracking-tight text-slate-900 dark:text-slate-100">{p.price}</p>
+									<p className="mt-1 text-sm text-slate-600 dark:text-slate-400">{p.desc}</p>
+									<ul className="mt-4 space-y-2 text-sm text-slate-700 dark:text-slate-300">
 							{p.features.map((f) => (
 								<li key={f} className="flex items-center gap-2">
 								<span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gradient-to-r from-brand-start to-brand-end text-[10px] text-white">✓</span>
